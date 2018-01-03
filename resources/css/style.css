@@ -44,6 +44,7 @@ html {
 	.mobilenavmenu {
 		display: flex;
 		align-items: center;
+		justify-content: space-around;
 		background-color: white;
 		height: 3.56rem;
 		color: black;
