@@ -5,13 +5,15 @@ html {
 	font-size: 18px;
 }
 
+/* header and navigation menu*/
+
 .desktopmenu {
 	display: flex;
 	align-items: center;
     background-color:white;
 	height: 3.56rem;
 	color: black;
-	width: 100%;
+	width: 960px;
 }
 
 .heavytitlefont {
@@ -28,15 +30,78 @@ html {
 
 .navmenu {
 	color: black;
-	padding-left: 55%;
+	padding-left: 20%;
+}
+
+.navmenu a {
+	margin-left: 16px;
 }
 
 .mobilenavmenu {
 	display: none;
 }
 
+
+/** start here section **/
+
+.startheremobile {
+	display: none;
+}
+
+.startheredesktop {
+	display: flex;
+	width: 960px;
+	background-color: lightgray;
+	height: 24rem;
+}
+
+.leftcolumn {
+	display: flex;
+}
+
+.leftcolumn img {
+	height: 20rem;
+	width: 30rem;
+	margin-left: 1.5rem;
+	margin-top: 2rem;
+	
+}
+
+.rightcolumn {
+	margin-left: 1.78rem;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5rem;
+}
+
+.rightcolumn h1 {
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.rightcolumn h2 {
+	margin-top: 2rem;
+}
+
+.startbutton {
+	margin-top: 2rem;
+	margin-left: 3rem;
+	width: 10rem;
+	height: 2rem;
+	background-color: grey;
+}
+
+.startbutton span {
+	padding-left: 2.5rem;
+	font-weight: 700;
+}
+
+
+/****responsive *******/
+
 @media (max-width: 480px){
 	
+	/** navmenu **/
 	.desktopmenu {
 		display: none;
 	}
@@ -51,4 +116,36 @@ html {
 		width: 100%;
 	}
 	
+	/** start here section **/
+	
+	.startheredesktop {
+		display: none;
+	}
+	
+	.startheremobile {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: lightgray;
+	}
+	
+	.startheremobile img {
+		height: 10rem;
+		width: 15rem;	
+	}
+	
+	.startheremobile h1 {
+		margin-top: 1.5rem;
+		font-weight: 700;
+	}
+	
+	.startheremobile h2 {
+		margin-top: 1.5rem;
+		text-align: center;
+	}
+	
+	.startbuttonmobile {
+		margin-top: 1.5rem;
+		background-color: dimgrey;
+	}
 }
