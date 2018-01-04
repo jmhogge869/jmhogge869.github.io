@@ -216,6 +216,71 @@ html {
 	padding-top: 1rem;
 }
 
+/***thesis section***/
+
+.thesismobile {
+	display: none;
+}
+
+.thesisdesktop {
+	display: flex;
+	margin-top: 3rem;
+	width: 960px;
+	background-color: white;
+	height: 24rem;
+}
+
+
+
+.thesislcolumn {
+	display: flex;
+	flex-direction: column;
+	margin-left: 2rem;
+}
+
+.thesislcolumn h1 {
+	margin-top: .5rem;
+	font-weight: 700;
+	margin-left: 1.5rem;
+}
+
+.thesislcolumn h2 {
+	margin-top: .5rem;
+	margin-left: 1.5rem;
+}
+
+.thesislcolumn h3 {
+	margin-left: 1.5rem;
+	font-size: .75rem;
+}
+
+.thesisrcolumn {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.thesisrcolumn img {
+	width: 30%;
+	height: 30%;
+}
+
+.thesisbox {
+	display: flex;
+	margin-top: 2rem
+}
+
+.thesisbox h1 {
+	font-weight: 700;
+}
+
+.thesisbox h2 h3 {
+	font-size: .8rem;
+}
+
+.thesisboxcopy {
+	margin-left: 1rem;
+}
 
 /****responsive *******/
 
@@ -332,6 +397,23 @@ html {
 	
 	.lmobiletitle h1 {
 		font-size: 1.5rem;
+		font-weight: 700;
+	}
+	
+	/***thesis section***/
+	
+	.thesisdesktop {
+		display: none;
+	}
+	
+	.thesismobile {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 2rem;
+	}
+	
+	.thesismobile h1 {
 		font-weight: 700;
 	}
 }
