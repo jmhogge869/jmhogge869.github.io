@@ -92,6 +92,7 @@ html {
 }
 
 .startbutton span {
+	padding-top: 1rem;
 	padding-left: 2.5rem;
 	font-weight: 700;
 }
@@ -280,6 +281,12 @@ html {
 
 .thesisboxcopy {
 	margin-left: 1rem;
+}
+
+/****footer****/
+
+footer {
+	font-weight: 300;
 }
 
 /****responsive *******/
