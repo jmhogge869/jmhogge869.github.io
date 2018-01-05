@@ -7,7 +7,7 @@ html {
 
 /* header and navigation menu*/
 
-.desktopmenu {
+.desktop-menu {
 	display: flex;
 	align-items: center;
     background-color:white;
@@ -16,50 +16,50 @@ html {
 	width: 960px;
 }
 
-.heavytitlefont {
+.heavy-title-font {
 	color: black;
 	font-weight: 700;
 	font-size: 1.78rem;
 }
 
-.lighttitlefont {
+.light-title-font {
 	color: black;
 	font-weight: 300;
 	font-size: 1.78rem;
 }
 
-.navmenu {
+.nav-menu {
 	color: black;
 	padding-left: 20%;
 }
 
-.navmenu a {
+.nav-menu a {
 	margin-left: 16px;
 }
 
-.mobilenavmenu {
+.mobile-nav-menu {
 	display: none;
 }
 
 
 /** start here section **/
 
-.startheremobile {
+.start-here-mobile {
 	display: none;
 }
 
-.startheredesktop {
+.start-here-desktop {
 	display: flex;
 	width: 960px;
 	background-color: lightgray;
 	height: 24rem;
 }
 
-.leftcolumn {
+.left-column {
 	display: flex;
 }
 
-.leftcolumn img {
+.left-column img {
 	height: 20rem;
 	width: 30rem;
 	margin-left: 1.5rem;
@@ -67,23 +67,23 @@ html {
 	
 }
 
-.rightcolumn {
+.right-column {
 	margin-left: 1.78rem;
 	display: flex;
 	flex-direction: column;
 	margin-top: 5rem;
 }
 
-.rightcolumn h1 {
+.right-column h1 {
 	font-weight: 700;
 	font-size: 2rem;
 }
 
-.rightcolumn h2 {
+.right-column h2 {
 	margin-top: 2rem;
 }
 
-.startbutton {
+.start-button {
 	margin-top: 2rem;
 	margin-left: 3rem;
 	width: 10rem;
@@ -91,7 +91,7 @@ html {
 	background-color: grey;
 }
 
-.startbutton span {
+.start-button span {
 	padding-top: 1rem;
 	padding-left: 2.5rem;
 	font-weight: 700;
@@ -99,18 +99,18 @@ html {
 
 /**overview section***/
 
-.overviewmobile {
+.overview-mobile {
 	display: none;
 }
 
-.overviewdesktop {
+.overview-desktop {
 	display: flex;
 	width: 960px;
 	background-color: white;
 	height: 24rem;
 }
 
-.overviewdesktop img {
+.overview-desktop img {
 	height: 20rem;
 	width: 30rem;
 	margin-left: 1.5rem;
@@ -118,62 +118,62 @@ html {
 	
 }
 
-.overviewlcolumn {
+.overview-l-column {
 	display: flex;
 	flex-direction: column;
 }
 
-.overviewlcolumn h1 {
+.overview-l-column h1 {
 	margin-top: .5rem;
 	font-weight: 700;
 	margin-left: 1.5rem;
 }
 
-.overviewlcolumn h2 {
+.overview-l-column h2 {
 	margin-top: .5rem;
 	margin-left: 1.5rem;
 }
 
-.overviewlcolumn h3 {
+.overview-l-column h3 {
 	margin-left: 1.5rem;
 	font-size: .75rem;
 }
 
 
-.orientationbox {
+.orientation-box {
 	display: flex;
 }
 
-.orientationbox img {
+.orientation-box img {
 	width: 30%;
 	height: 30%;
 }
 
-.orientationboxcopy {
+.orientation-boxcopy {
 	margin-top: 2rem;
 	margin-left: 1rem;
 }
 
-.orientationboxcopy h1 {
+.orientation-boxcopy h1 {
 	font-weight: 700;
 }
 
-.orientationboxcopy h3 {
+.orientation-boxcopy h3 {
 	margin-top: .5rem;
 }
 
-.orientationboxcopy h4 {
+.orientation-boxcopy h4 {
 	margin-top: 1rem;
 	color: blue;
 }
 
 /*****learning section******/
 
-.learningmobile {
+.learning-mobile {
 	display: none;
 }
 
-.learningdesktop {
+.learning-desktop {
 	display: block;
 	width: 960px;
 	background-color: lightgray;
@@ -181,7 +181,7 @@ html {
 	padding-bottom: 3rem;
 }
 
-.learningrow {
+.learning-row {
 	display: flex;
 	margin-top: 2rem;
 	margin-left: 2rem;
@@ -190,27 +190,27 @@ html {
 	
 }
 
-.learningbox {
+.learning-box {
 	display: flex;
 	flex-direction: column;
 	background-color: white;
 }
 
-.learningbox img {
+.learning-box img {
 	width: 15rem;
 	height: 10rem;
 }
 
-.learningbox h1 {
+.learning-box h1 {
 	font-weight:700;
 }
 
-.learningbox h3 h4 {
+.learning-box h3 h4 {
 	font-weight: 300;
 	font-size: 12px;
 }
 
-.learningtitle {
+.learning-title {
 	font-weight: 800;
 	font-size: 1.5rem;
 	margin-left: 40%;
@@ -219,11 +219,11 @@ html {
 
 /***thesis section***/
 
-.thesismobile {
+.thesis-mobile {
 	display: none;
 }
 
-.thesisdesktop {
+.thesis-desktop {
 	display: flex;
 	margin-top: 3rem;
 	width: 960px;
@@ -233,53 +233,53 @@ html {
 
 
 
-.thesislcolumn {
+.thesis-l-column {
 	display: flex;
 	flex-direction: column;
 	margin-left: 2rem;
 }
 
-.thesislcolumn h1 {
+.thesis-l-column h1 {
 	margin-top: .5rem;
 	font-weight: 700;
 	margin-left: 1.5rem;
 }
 
-.thesislcolumn h2 {
+.thesis-l-column h2 {
 	margin-top: .5rem;
 	margin-left: 1.5rem;
 }
 
-.thesislcolumn h3 {
+.thesis-l-column h3 {
 	margin-left: 1.5rem;
 	font-size: .75rem;
 }
 
-.thesisrcolumn {
+.thesis-r-column {
 	display: flex;
 	flex-direction: column;
 	
 }
 
-.thesisrcolumn img {
+.thesis-r-column img {
 	width: 30%;
 	height: 30%;
 }
 
-.thesisbox {
+.thesis-box {
 	display: flex;
 	margin-top: 2rem
 }
 
-.thesisbox h1 {
+.thesis-box h1 {
 	font-weight: 700;
 }
 
-.thesisbox h2 h3 {
+.thesis-box h2 h3 {
 	font-size: .8rem;
 }
 
-.thesisboxcopy {
+.thesis-boxcopy {
 	margin-left: 1rem;
 }
 
@@ -294,11 +294,11 @@ footer {
 @media (max-width: 760px){
 	
 	/** navmenu **/
-	.desktopmenu {
+	.desktop-menu {
 		display: none;
 	}
 	
-	.mobilenavmenu {
+	.mobile-nav-menu {
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
@@ -310,117 +310,117 @@ footer {
 	
 	/** start here section **/
 	
-	.startheredesktop {
+	.start-here-desktop {
 		display: none;
 	}
 	
-	.startheremobile {
+	.start-here-mobile {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		background-color: lightgray;
 	}
 	
-	.startheremobile img {
+	.start-here-mobile img {
 		height: 10rem;
 		width: 15rem;	
 	}
 	
-	.startheremobile h1 {
+	.start-here-mobile h1 {
 		margin-top: 1.5rem;
 		font-weight: 700;
 	}
 	
-	.startheremobile h2 {
+	.start-here-mobile h2 {
 		margin-top: 1.5rem;
 		text-align: center;
 	}
 	
-	.startbuttonmobile {
+	.start-button-mobile {
 		margin-top: 1.5rem;
 		background-color: dimgrey;
 	}
 	
 	/** overview **/
 	
-	.overviewdesktop {
+	.overview-desktop {
 		display: none;
 	}
 	
-	.overviewmobile {
+	.overview-mobile {
 		display:flex;
 		flex-direction: column;
 		align-items: center;
 	}
 	
-	.orientationmobile img{
+	.orientation-mobile img{
 		margin-top: 1rem;
 		height: 10rem;
 		width: 15rem;
 	}
 	
-	.overviewmobile h1 {
+	.overview-mobile h1 {
 		margin-top: 1rem;
 		font-weight: 700;
 		font-size: 1.25rem;
 	
 	}
 	
-	.overviewmobile h3 {
+	.overview-mobile h3 {
 		margin-top: .5rem;
 		font-size: 1rem;
 	}
 	
-	.overviewmobile h4 {
+	.overview-mobile h4 {
 		margin-top: .5rem;
 		color: blue;
 		font-size: 1rem;
 	}
 	
 	/** learning section **/
-	.learningdesktop {
+	.learning-desktop {
 		display: none;
 	}
 	
-	.learningmobile {
+	.learning-mobile {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		margin-top: 2rem;
 	}
 	
-	.lmobilebox {
+	.l-mobile-box {
 		margin-top: .5rem;
 		background-color: grey;
 		width: 100%;
 		height: 4rem;
 	}
 	
-	.lmobilebox h2 {
+	.l-mobile-box h2 {
 		font-weight: 700;
 		padding-top: 1.5rem;
 		margin-left: 1rem;
 	}
 	
-	.lmobiletitle h1 {
+	.l-mobile-title h1 {
 		font-size: 1.5rem;
 		font-weight: 700;
 	}
 	
 	/***thesis section***/
 	
-	.thesisdesktop {
+	.thesis-desktop {
 		display: none;
 	}
 	
-	.thesismobile {
+	.thesis-mobile {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		margin-top: 2rem;
 	}
 	
-	.thesismobile h1 {
+	.thesis-mobile h1 {
 		font-weight: 700;
 	}
 }
